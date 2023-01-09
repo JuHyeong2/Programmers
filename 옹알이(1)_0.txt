@@ -1,0 +1,17 @@
+def solution(babbling)
+    answer = 0
+    talk = ['aya', 'ye', 'woo', 'ma']
+    answer_list = []
+    for i, b in enumerate(babbling)
+        for j, t in enumerate(talk)
+            if t in b
+                b = b.replace(t, )
+                temp = ''
+                for k in range(len(b))
+                    temp = temp + ''
+                if temp == b
+                    answer += 1
+                    break
+
+
+    return answer
